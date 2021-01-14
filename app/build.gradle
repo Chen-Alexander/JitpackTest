@@ -29,12 +29,13 @@ android {
 }
 
 dependencies {
+    implementation project(path: ':codec')
+    implementation project(path: ':json')
+//    implementation 'com.github.Chen-Alexander:JitpackTest:0.1'
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    implementation project(path: ':codec')
-    implementation project(path: ':json')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
