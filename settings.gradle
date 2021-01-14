@@ -1,0 +1,4 @@
+include ':json'
+include ':codec'
+include ':app'
+rootProject.name = "JitpackTest"
